@@ -19,6 +19,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ConvocatoriaunoComponent } from './convocatoriauno/convocatoriauno.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ConvocatoridosComponent } from './convocatoridos/convocatoridos.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    ConvocatoriaunoComponent
+    ConvocatoriaunoComponent,
+    ConvocatoridosComponent
   ],
   imports: [
     BrowserModule,
