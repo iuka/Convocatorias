@@ -14,10 +14,19 @@ import { MdbFileUploadModule } from 'mdb-file-upload';
 import { MdbSortableModule } from 'mdb-sortable';
 import { MdbTableEditorModule } from 'mdb-table-editor';
 import { MdbWysiwygModule } from 'mdb-wysiwyg';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { ConvocatoriaunoComponent } from './convocatoriauno/convocatoriauno.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    ConvocatoriaunoComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +42,7 @@ import { MdbWysiwygModule } from 'mdb-wysiwyg';
     MdbSortableModule,
     MdbTableEditorModule,
     MdbWysiwygModule,
+    AppRoutingModule,
   ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],
